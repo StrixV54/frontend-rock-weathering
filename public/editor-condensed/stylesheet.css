@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Editor Condensed';
+    src: url('EditorCondensed-Medium.eot');
+    src: local('Editor Condensed Medium'), local('EditorCondensed-Medium'),
+        url('EditorCondensed-Medium.eot?#iefix') format('embedded-opentype'),
+        url('EditorCondensed-Medium.woff2') format('woff2'),
+        url('EditorCondensed-Medium.woff') format('woff'),
+        url('EditorCondensed-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Editor Condensed';
+    src: url('EditorCondensed-ExtraBold.eot');
+    src: local('Editor Condensed ExtraBold'), local('EditorCondensed-ExtraBold'),
+        url('EditorCondensed-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('EditorCondensed-ExtraBold.woff2') format('woff2'),
+        url('EditorCondensed-ExtraBold.woff') format('woff'),
+        url('EditorCondensed-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Editor Condensed';
+    src: url('EditorCondensed-Bold.eot');
+    src: local('Editor Condensed Bold'), local('EditorCondensed-Bold'),
+        url('EditorCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('EditorCondensed-Bold.woff2') format('woff2'),
+        url('EditorCondensed-Bold.woff') format('woff'),
+        url('EditorCondensed-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Editor Condensed';
+    src: url('EditorCondensed-Italic.eot');
+    src: local('Editor Condensed Italic'), local('EditorCondensed-Italic'),
+        url('EditorCondensed-Italic.eot?#iefix') format('embedded-opentype'),
+        url('EditorCondensed-Italic.woff2') format('woff2'),
+        url('EditorCondensed-Italic.woff') format('woff'),
+        url('EditorCondensed-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Editor Condensed';
+    src: url('EditorCondensed-Regular.eot');
+    src: local('Editor Condensed Regular'), local('EditorCondensed-Regular'),
+        url('EditorCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('EditorCondensed-Regular.woff2') format('woff2'),
+        url('EditorCondensed-Regular.woff') format('woff'),
+        url('EditorCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Editor Condensed';
+    src: url('EditorCondensed-ExtraBoldItalic.eot');
+    src: local('Editor Condensed ExtraBold Italic'), local('EditorCondensed-ExtraBoldItalic'),
+        url('EditorCondensed-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('EditorCondensed-ExtraBoldItalic.woff2') format('woff2'),
+        url('EditorCondensed-ExtraBoldItalic.woff') format('woff'),
+        url('EditorCondensed-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Editor Condensed';
+    src: url('EditorCondensed-BoldItalic.eot');
+    src: local('Editor Condensed Bold Italic'), local('EditorCondensed-BoldItalic'),
+        url('EditorCondensed-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('EditorCondensed-BoldItalic.woff2') format('woff2'),
+        url('EditorCondensed-BoldItalic.woff') format('woff'),
+        url('EditorCondensed-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Editor Condensed';
+    src: url('EditorCondensed-LightItalic.eot');
+    src: local('Editor Condensed Light Italic'), local('EditorCondensed-LightItalic'),
+        url('EditorCondensed-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('EditorCondensed-LightItalic.woff2') format('woff2'),
+        url('EditorCondensed-LightItalic.woff') format('woff'),
+        url('EditorCondensed-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Editor Condensed';
+    src: url('EditorCondensed-Light.eot');
+    src: local('Editor Condensed Light'), local('EditorCondensed-Light'),
+        url('EditorCondensed-Light.eot?#iefix') format('embedded-opentype'),
+        url('EditorCondensed-Light.woff2') format('woff2'),
+        url('EditorCondensed-Light.woff') format('woff'),
+        url('EditorCondensed-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Editor Condensed';
+    src: url('EditorCondensed-MediumItalic.eot');
+    src: local('Editor Condensed Medium Italic'), local('EditorCondensed-MediumItalic'),
+        url('EditorCondensed-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('EditorCondensed-MediumItalic.woff2') format('woff2'),
+        url('EditorCondensed-MediumItalic.woff') format('woff'),
+        url('EditorCondensed-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
