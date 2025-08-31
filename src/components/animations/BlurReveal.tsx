@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import { defaultTransition, defaultFadeVariants } from "../utils/animate";
+import { defaultTransition, defaultFadeVariants } from "../../utils/animate";
 
 export default function BlurReveal({ text, className, duration = 1 }: { text: string; className?: string; duration?: number }) {
     const words = text.split(" ");

@@ -2,26 +2,27 @@ import React from "react";
 import { motion } from "motion/react";
 
 interface SpriteImageProps {
-    /** Path to the sprite image */
     src: string;
     /** Total number of frames in the sprite */
     totalFrames: number;
-    /** Which frame to display (0-based index) */
     currentFrame: number;
     /** Width of a single frame in pixels */
-    frameWidth: number;
     /** Height of a single frame in pixels */
+    frameWidth: number;
     frameHeight: number;
     /** Number of columns in the sprite (optional, defaults to all frames in one row) */
     columns?: number;
-    /** Additional CSS classes */
     className?: string;
-    /** Additional inline styles */
     style?: React.CSSProperties;
-    /** Delay in seconds */
+    /** Delay to make it visible in seconds */
     delay?: number;
 }
 
+/**
+ * SpriteImage component for displaying a sprite image
+ * @param {SpriteImageProps} props - The props for the SpriteImage component
+ * @returns {React.FC<SpriteImageProps>} The SpriteImage component
+ */
 const SpriteImage: React.FC<SpriteImageProps> = ({ src, totalFrames, currentFrame, frameWidth, frameHeight, columns, className = "", style = {}, delay = 0 }) => {
     // Calculate sprite layout
     const cols = columns || totalFrames; // Default to horizontal layout

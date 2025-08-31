@@ -1,5 +1,5 @@
 import React from "react";
-import { cn } from "../utils";
+import { cn } from "../../utils";
 
 interface CustomTooltipContentProps {
     content: string;
@@ -8,10 +8,13 @@ interface CustomTooltipContentProps {
     contentClassName?: string;
 }
 
+/**
+ * CustomTooltipContent component for displaying a tooltip content
+ * @param {CustomTooltipContentProps} props - The props for the CustomTooltipContent component
+ * @returns {React.FC<CustomTooltipContentProps>} The CustomTooltipContent component
+ */
 const CustomTooltipContent: React.FC<CustomTooltipContentProps> = ({ content, onClose, pointerDown = false, contentClassName = "" }) => {
-    const prefersReducedMotion = typeof window !== 'undefined'
-        ? window.matchMedia('(prefers-reduced-motion: reduce)').matches
-        : false;
+    const prefersReducedMotion = typeof window !== "undefined" ? window.matchMedia("(prefers-reduced-motion: reduce)").matches : false;
 
     const animationClass = prefersReducedMotion ? "" : "animate-in fade-in duration-200";
 

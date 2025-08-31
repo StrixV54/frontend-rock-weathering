@@ -1,5 +1,5 @@
 import React, { useState, useImperativeHandle, forwardRef } from "react";
-import { cn } from "../utils";
+import { cn } from "../../utils";
 import { motion } from "motion/react";
 
 interface ImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
@@ -13,6 +13,11 @@ interface ImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
     delay?: number;
 }
 
+/**
+ * Image component for displaying an image
+ * @param {ImageProps} props - The props for the Image component
+ * @returns {React.FC<ImageProps>} The Image component
+ */
 const Image = forwardRef<HTMLImageElement, ImageProps>(({ src, placeholderSrc, alt = "", className = "", placeholderClassName = "", showSpinner = false, duration = 0, delay = 0, ...props }, ref) => {
     const [isLoaded, setIsLoaded] = useState(false);
     const [isError, setIsError] = useState(false);
