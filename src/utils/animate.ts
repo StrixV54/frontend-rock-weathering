@@ -13,6 +13,6 @@ export const defaultFadeVariants = prefersReducedMotion
         visible: { opacity: 1 },
     }
     : {
-        hidden: { filter: "blur(10px)", transform: "translateY(20%)", opacity: 0 },
+        hidden: { filter: "blur(10px)", transform: "translateY(30%)", opacity: 0 },
         visible: { filter: "blur(0)", transform: "translateY(0)", opacity: 1 },
     };
